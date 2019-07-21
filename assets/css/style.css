@@ -1,0 +1,87 @@
+@font-face {
+    font-family: merriweather;
+    src: url(../font/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: muli;
+    src: url(../font/Muli-Regular.ttf);
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.bg-home {
+    background-image: url(../image/bg-home.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.a {
+    height: 100vh;
+}
+
+.b-start {
+    border-radius: 27.3526px;
+    font-family: muli;
+    font-size: 15pt;
+}
+
+.title {
+    font-family: merriweather;
+    width: 100%
+}
+
+.sub-title {
+    font-family: muli;
+    width: 75%
+}
+
+.bottom-text {
+    font-size: 21px;
+    font-family: muli;
+}
+.mb-0{
+    margin-bottom: 0!important;
+}
+
+.bg-hover :hover{
+    background: linear-gradient(90deg, #0066FF 0%, #009EFF 100%), #009EFF;
+}
+
+/* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {
+    ...
+}
+
+Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {}
+
+Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {
+    ...
+}
+*/
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .bg-home {
+        min-height: 680;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .bg-home {
+        height: 680px;
+    }
+
+    .sub-title,
+    .title {
+        width: 75%
+    }
+}
