@@ -16,6 +16,8 @@
 </head>
 
 <body>
+
+
     <nav class="navbar navbar-expand-sm navbar-dark w-100 p-4" style="position: absolute">
         <a class="navbar-brand" href="#">
             <img src="assets/image/logo.png" class="img-fluid" alt="">
@@ -24,9 +26,8 @@
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <div class="col-8"></div>
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse w-100 nav-flex" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">Lorem</a>
                 </li>
@@ -57,32 +58,29 @@
             <a name="button" id="button" class="btn btn-primary b-start px-4" href="#" role="button">Start a project</a>
         </div>
         <div class="row w-100">
-            <div class="col-6 w-100 d-flex">
+            <div class="col-lg-5 col-md-12 d-flex ">
                 <span class="text-white bottom-text  align-self-center">
                     <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
                     find out more
                 </span>
             </div>
-            <div class="col-6">
-                <ul class="list-inline bg-hover">
-                    <li class="list-inline-item border p-4 ">
-                        <img src="assets/image/Desktop.png" class="img-fluid" alt="">
-                        <p class="text-center text-white mt-3 mb-0">Website</p>
+            <div class="col-lg-7 d-none d-xl-flex">
+                <ul class="list-inline bg-hover d-none ml-auto d-flex">
+                    <li class="list-inline-item border item-service">
+                        <img src="assets/image/Desktop.png " class="img-fluid m-auto pt-4 d-block " alt="">
+                        <p class="text-center text-white mt-3">Website</p>
                     </li>
-                    <li class="list-inline-item border p-4">
-                        <img src="assets/image/Desktop.png" class="img-fluid" alt="">
-                        <p class="text-center text-white mt-3 mb-0">Website</p>
+                    <li class="list-inline-item border item-service">
+                        <img src="assets/image/Phone.png" class="img-fluid m-auto d-block pt-4" alt="">
+                        <p class="text-center text-white mt-3 mb-0">Mobile</p>
                     </li>
-                    <li class="list-inline-item border p-4">
-                        <img src="assets/image/Desktop.png" class="img-fluid" alt="">
-                        <p class="text-center text-white mt-3 mb-0">Website</p>
+                    <li class="list-inline-item border item-service">
+                        <img src="assets/image/Pen Tool.png" class="img-fluid m-auto d-block pt-4" alt="">
+                        <p class="text-center text-white mt-3 mb-0">Design</p>
                     </li>
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="container-fluid">
-
     </div>
 
     <!-- Optional JavaScript -->
